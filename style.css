@@ -1,0 +1,89 @@
+html
+{
+    background-color:  black;
+    font-family: "Dure Sans", sans-serif;
+}
+
+.mainbody
+{
+    background-color: rgb(35, 35, 35);
+    color:  white;
+    width: 840px;
+    height: 600px;
+    padding: 35px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-img
+{
+    background-image: url(../ivanfernm.github.io/images/pic08.jpg);
+    width: 100%;
+
+    height: 200px;
+    background-size: cover;
+}
+.main-header-class
+{
+    text-align: center;
+    position: absolute;
+    font-family: "Dure Sans", sans-serif;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    text-shadow: 2px 2px 5px black;
+    text-shadow:-1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        2px 2px 5px black,
+        -2px -2px 5px black, 1px 1px 0 #000; ;
+    color: whitesmoke;
+}
+.preview-image-holder
+{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background-size: contain;
+}
+.centered
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    text-shadow: 2px 2px purple;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Dure Sans", sans-serif;
+}
+.date
+{
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    padding-bottom: 5px;
+    color: thistle;
+    text-shadow:2px 2px #000;
+    font-size: 1em;
+    line-height: 1;
+    font-family: "Dure Sans", sans-serif;
+}
+.description
+{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 1em;
+    line-height: 1;
+    font-family: "Dure Sans", sans-serif;
+}
+
